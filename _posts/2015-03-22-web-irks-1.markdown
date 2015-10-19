@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Web Irks #1'
+date: '2015-03-22 21:51:59'
+---
+
+Those who've met me in person will know I'm easily irritated by the little things. If I worked in an office with other people, I'd be that guy you hear every 5 minutes saying "what the fuck...", and then have a hard time explaining why the annoying thing is annoying.
+
+To help alleviate some of the minor stresses of day to day browsing, I'm starting this new series in which I let off some steam about things that annoy me about the web. It's not something I intent to do regularly – a few times a year at most.
+
+I'm not really sure what I want to achieve here[^1]. Maybe start a discussion about various things, shed light on small things that people forget but have an impact, or learn about new & improved ways to do things. It's hard to have a goal when I'm not even sure what it's going to be about.
+
+For balance, I'm going to try and do a counter series where I list things I really like about the web. New trends which don't deserve to be thrown into a fiery pit, specific details about single websites and so on. I want to call that 'Web Delights'[^2].
+
+Oh, and for those outside the UK, here's the Urban Dictionary [definition of 'irk'](http://www.urbandictionary.com/define.php?term=irk&defid=191643).
+
+So, without further ado.
+
+---
+
+1. Very intelligent Web pages from very rich companies, that have numbers of things without proper pluralisation. **1 subscribers**? It's not hard. Even I've made client/server-side pluralisation functions.
+2. Websites that put all the content inside an element, add `overflow: auto;` but don't add `-webkit-overflow-scrolling: touch;` to keep the elasticity of scrolling on a vast majority of touch devices. Granted it has its own [quirks](http://stackoverflow.com/questions/26176288/webkit-overflow-scrolling-touch-breaks-in-apples-ios8), but c'mon.
+3. Using swipe gestures on websites to go to the next and previous posts/pages. I'm looking at you, Blogger. I can only assume the Blogger developers have never used their own platform one handed.[^3]
+4. Using some JavaScript to make scrolling appear smoother. Though it's been years since I used anything but a Mac with a trackpad for more than 30 seconds, but it's pretty fucking annoying knowing that scrolling which should be fantastically smooth is made horrible by these plugins. [Try this](http://fatlinesofcode.github.io/jquery.smoothwheel/demo/smoothwheel.html), if you're on a Mac. (Note: I'm not moaning about parallax scroll high-jacking – that's for another day)
+
+[^1]: Other than letting off steam, obviously.
+[^2]: Subject to change. I may find a more British word.
+[^3]: No dirty jokes, please.

@@ -1,0 +1,112 @@
+---
+layout: post
+title: 'Git Tips #1'
+date: '2014-07-05 15:26:14'
+---
+
+Earlier today I [tweeted](https://twitter.com/PaulAdamDavis/status/485369582098870272) how to preview a Git pull request. It got a few retweets and favourites quite quickly, so I thought I'd share a few other tricks, as well as the one I tweeted.
+
+Some are basic tips, but ones that I spent a while finding and learning, and some are tips I have learnt from the awesome team I work with . If your Git-fu is amazing, you can probably skip them.
+
+## Set Upstream
+
+'Upstream' is the term we use for the original repo. 'Origin' is the version of the repo that you have after forking. 'Upstream' is the repo that you forked in the first place.
+
+Once set, you can use 'upstream' instead of a URL. You'll need this set for each repo for a lot of the below tips to work.
+
+```language-bash
+git remote add upstream https://github.com/origin-owner/original-repo.git
+```
+
+## Preview a Pull Request
+
+Let's say you want to locally run a pull request to see how it works, before you merge it. How do you do that without forking their repo and running that? This, is how you do it.
+
+```language-bash
+# Step 1
+git fetch git@github.com:acount/the-repo.git refs/pull/123/head
+# Or
+git fetch upstream refs/pull/4/head
+
+# Step 2. Yes, 'FETCH_HEAD', verbatim
+git checkout FETCH_HEAD
+```
+
+## Create & Delete a Tag
+
+Tagging code is a good way to say _"Okay, that's feature X done, let's tag it so people can download or run it from this point back"._ It's exactly what we do with Ghost and Ghost-UI, though releases of Ghost-UI happen much more often to give contributors styles to work with.
+
+**Create**
+
+```language-bash
+git tag -a 1.2.3
+git push --tags
+```
+	
+**Delete Tag**
+
+**Locally**
+
+```language-bash
+git tag -d 1.2.3
+```
+
+**Remotely**
+
+```language-bash
+git tag -d 1.2.3
+git push origin :refs/tags/1.2.3
+```
+
+## Rename Branch
+
+There's many reasons why you'll want to rename a branch. You can rename another branch or the currently checked out branch.
+
+\#protip: Think of `-m` as `move`.
+
+**From any branch**
+
+```language-bash
+git branch -m <oldname> <newname>
+```
+
+**From current branch**
+
+```language-bash
+git branch -m <newname>
+```
+
+## Interactive Rebase
+
+This is how you merge commits together. If you ever contribute to Ghost, you'll need this one.
+Everyone likes a clean commit history.
+
+```language-bash
+# 8 is the number of commits to merge, so the 8 newest commits, from any author
+git rebase -i HEAD~8
+```
+
+## Cherry-Pick
+
+Lets say you want to pick a few select commits from one branch to the other, cherry-pick is your friend.
+
+For this to work, you need to be on a different branch to the one your picking commits from. You can either use the first 10 characters from a commit hash, or the full 40 characters.
+
+```language-bash
+git cherry-pick a1b2c3d4e5
+```
+
+## Reset to upstream
+
+Let's say you're totally fucked. Like, no one has any clue. You haven't done much work that would be disastrous to loose. Reset to upstream!
+
+**Use this with caution**. You _could_ loose days of work.
+
+```language-bash
+git fetch upstream
+git reset --hard upstream/master
+```
+
+---
+
+Well, there's enough tips for today. Do drop me a tweet if you see any seriousl flaws with these tips. :)

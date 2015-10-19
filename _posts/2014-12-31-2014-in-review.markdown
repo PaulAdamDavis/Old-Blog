@@ -1,0 +1,51 @@
+---
+layout: post
+title: 2014 In Review
+date: '2014-12-31 11:14:46'
+---
+
+This year has been good - the best of my life so far. To round up the year, I want to list the ups (and downs), so I can look back at this in years to come and compare.
+
+---
+
+I spent a large majority **January** anxiously waiting for an interview with Ghost and kept on with freelance work. The ECU in my car also died, which was a much-unwanted ~£700 bill. A fairly quiet month.
+
+In **February**, Hayley & I celebrated Valentines day by going to Brighton, which is where I got an email inviting me for an interview with Ghost! I also went to my first (and probably last?) hack day in Manchester, but I had to leave early, so barely did anything. A fairly quiet month otherwise.
+
+**March** saw me finish up any freelance work I had and start a trial with Ghost. I later got the job! Hayley & I took a trip to Dover to walk along the cliffs. It's funny how people who live near tourist attractions never go to them. This was another fairly quiet month, other than getting a life-changing job (for me).
+
+In **April**, I just plodded along. Barely went anywhere.
+
+**May** was ridiculously exciting! 4/5 of the Ghost team were all in Egypt at the same time for a week of drinking, planning and drinking. I spent the whole week in aww. A year prior I was feeling pretty down that I'd never have one of those jobs where the company values more than money. I remember saying to Hannah in the airport before flying home that I was still amazed by it all. I'd been an employee for less than 6 weeks and was on another continent with the team.
+
+In **June**, I went down to Brighton for the [Responsive Day Out](http://responsiveconf.com/) mini-conference, thanks to [Javier Usobiaga](https://twitter.com/htmlboy) who could no longer make it and offered his ticket to me.
+
+Hayley & I went down to Cornwall in **July** for a week. We visited all the things and got woken up every morning by the train line behind the cottage that wasn’t mentioned anywhere on the website we booked it on.
+
+In **August**, I spoke at the first [re:develop](http://redevelop.io/) which was the first conference I've spoken at that I was properly prepared for. My talk seemed well received and had some useful feedback. It also resonated with many people, which was _very_ nice to hear.
+
+**September** flew by, with nothing of any significance happening. We did plan a trip to the Lake District though, just to get away.
+
+In **October** we drove up to lake Windermere for a few days. Got cold, got bored, came home early. We terrible at holidays. Saw some beautiful sights though, and some amazing roads. I also gave a lighting talk at the first [London Sass Meetup](https://twitter.com/ldn_sass)  on how Ghost moved from Ruby Sass to Libsass.
+
+**November** is when I started planning Christmas presents and plodded on with work. I also turned the ripe old age of 24. I also published my big post on [How we do CSS at Ghost](http://dev.ghost.org/css-at-ghost/) which has had quite a lot of traffic and started some interesting discussions.
+
+In **December**, Hayley & I planned a trip to Disneyland Paris for March 2015. That’s going to be fun! I felt I also stepped over a learning curve with Ember.js - this framework has somewhat dominated my year, at least tech-wise.
+
+---
+
+There were things that happened this year that have taken months to do.
+
+* I finally gave up cigarettes and now exclusively use a vaporiser. It's been over 5 months since my last cigarette. I still miss it, but using a vaporiser has its own perks.
+* I got my finances in order. Using the magic of spreadsheets, I have projections going to the end of 2016. I know exactly what comes in, and what goes out – down to the penny. If all goes well, Hayley & I will be suitably flush when we buy our own house.
+* Figured out a work-life balance. I work when Hayley does, which still gives me 5-6 days a week, including a slow day mid-week when Hayley isn’t working.
+* I've learnt so much about Ember, which is somewhat important considering Ghost's front-end is built on it. Im still learning though.
+
+---
+
+Of course there's goals for 2015.
+
+* Save money, and further reduce monthly outgoings
+* Get to a point with Ember where I can confidently merge Ember.js-related pull requests to Ghost
+* Start a simple side project which stretches my design & dev skills. It creating a passive income would be a bonus.
+* Write more.

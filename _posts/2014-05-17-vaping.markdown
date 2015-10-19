@@ -1,0 +1,58 @@
+---
+layout: post
+title: Vaping
+date: '2014-05-17 16:41:41'
+---
+
+Back in January, I wrote [Cravings](http://pad.gs/2014/01/06/cravings/). I detailed my history with smoking and how i'm trying to curb the addiction to cigarettes. I thought I'd write a little update.
+
+It's been 4 months and the number of cigarettes I've smoked since has dropped dramatically. I tend to vape more though, but that's likely because it's cheaper and more socially accepted in more spaces, even if I am blowing massive fruity clouds.
+
+The vaporiser I use it not like the things you can buy in petrol garages and some corner shops. Those are simple and require little to no maintenance. Mine is a comparative beast, but not unusual to those who vape like I do. I often get asked what the hell it is, how it works, what it tastes like and so on. So, below is a detailed look at what my tools are and how they work. :)
+
+Note: Comments, emails and tweets directed at me citing that vaping is untested and not safe, can all go to hell. It's this or cigarettes filled with tar that stink the place out.
+
+## The Daily Carry
+
+![Vaporiser with iPhone for size comparison](/content/images/2014/May/vape-pocket.jpg)
+
+This is what I carry on a daily basis, next to an iPhone 5 for size comparison. The brass poll is what we call a 'mod', because it can be used & adapted in various ways to do various things. This one is standard. The chrome piece on top is called a dripper and houses the coils, cotton wool, and ultimately the juice that gets vaporised into smoke, which is just flavoured water, after breathing it out.
+
+Inside the mod is a Sony 18650 battery, which lets me use sub-ohm coils. Lesser batteries aren't as safe or even capable of sub-ohming.
+
+*Side note: [Ohms](http://en.wikipedia.org/wiki/Ohm) is a unit of electrical resistance. Creating different coils of varying ohms can change the flavour of the juice and usually the amount of vapour.* 
+
+The clear bottle with the blue lid is the juice I am using at the moment. It's home-made (not by me) and consists of 3 or 4 liquids, as all other juices do. They are:
+
+* Vegetable glycerin
+* Propylene glycol
+* Concentrated flavouring
+* Nicotine (optional)
+
+The levels of these ingredients are typically a secret of those who make liquids. I know the levels of mine, but I won't be sharing that. All I can say is that they contain the equivalent of 3mg of nicotine, which is half that of a typical cigarette.
+
+## The Tool Kit
+
+![Vaping tool kit](/content/images/2014/May/vape-tools.jpg)
+
+This is all the vapid equipment I have, which is typical of many capers like myself.
+
+It consists of:
+
+* 2x mods with drippers (both dual-coil – 0.2Ω on the left and 0.5Ω on the right)
+* 2x 10ml bottles and 1x 30ml bottle
+* Ohm meter
+* Allen key for the left dripper
+* Screwdriver for the right dripper
+* 0.28mm [kanthal wire](http://en.wikipedia.org/wiki/Kanthal)
+* Crappy tweezers for squeezing coils together
+* Old tiny screwdriver for wrapping coils around
+* Generic cotton wool (not pictured)
+
+All in (and buying from the right places) this whole kit cost about £40, but will last for a good while. After the initial cost of buying all this, vaping costs me about £5 a week, if that.
+
+Of course, this *always* stays at home. After making a set of coils, they can last happily for a week or two, sometimes even longer. I won't go into how to make coils as that's something best left to YouTubers like [GrimmGreen](https://www.youtube.com/user/GrimmGreen) and many others.
+
+## Closing
+
+So, that's it. That's what I have to vape with and make what I need. Granted, it looks a bit ridiculous but feels cool making coils, especially when I get them to hit the magical 0.2Ω.

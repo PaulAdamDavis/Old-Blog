@@ -1,0 +1,18 @@
+---
+layout: post
+title: Mono
+date: '2015-01-11 21:29:00'
+---
+
+For the longest time, I've wanted to make an open source Ghost theme. I’ve finally done it! It’s powering this blog and is MIT licensed, so do what you want with it. It’s called [Mono](https://github.com/PaulAdamDavis/Mono).
+
+I’m using it as a playground to (hopefully) show off good practices in building Ghost themes (not to take away from [Casper](https://github.com/TryGhost/Casper) which is _very_ well built - [I also contribute to it]  Mono is just different). I’m going to keep it as up to date as humanly possible[^1], supporting each feature Ghost has, as they are released.
+
+It’s also a good example (I think) in how to use Sass & Autoprefixer in a theme, without having all the extra stuff like `node_modules` and `.scss` files in the zip which Ghost(Pro) (and some other hosted services) require. If you clone Mono and install all dependencies, it’s 54mb, where as the release zip is 26kb.
+
+For posterity[^2], here's a screenshot.
+
+![Mono Screenshot](/content/images/2015/01/Paul-Davis--20150111-.jpg)
+
+[^1]: Which is good for my contribution streak too.
+[^2]: And RSS readers. I am one!

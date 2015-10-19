@@ -1,0 +1,43 @@
+---
+layout: post
+title: Podcasts
+date: '2015-02-04 16:18:28'
+---
+
+Working at home means I have lots of time to listen to music and podcasts. I cannot work or write in silence, and music gets tedious after a while – hearing voices is nice.
+
+It feels like a listen to a lot of podcasts, but I constantly find myself looking for more. For those of you who are looking for more, here's what I listen to.
+
+* [99% Invisible](https://overcast.fm/podcasts/show/48/S9vLUw)
+* [Accidental Tech Podcast](https://overcast.fm/podcasts/show/2516/nGKpf2)
+* [Analog(ue)](https://overcast.fm/podcasts/show/142025/26bAi3)
+* [Back to Work](https://overcast.fm/podcasts/show/1432/sHtl2J)
+* [The Changelog](https://overcast.fm/podcasts/show/9210/2XtV0h)
+* [Core Intuition](https://overcast.fm/podcasts/show/8860/DSqCCw)
+* [Debug](https://overcast.fm/podcasts/show/9202/y7EXdE)
+* [Design Details](https://overcast.fm/podcasts/show/254002/Jo4wWb)
+* [Developer Tea](https://overcast.fm/podcasts/show/262517/lAjFKR)
+* [Developing Perspective](https://overcast.fm/podcasts/show/8848/jllEOP)
+* [Everything Sounds](https://overcast.fm/podcasts/show/49128/PegJQO)
+* [Exponent](https://overcast.fm/podcasts/show/100889/PHNfPy)
+* [Ghostalk](https://overcast.fm/podcasts/show/112464/vJB2nS)
+* [The Going Quantum Podcast](https://overcast.fm/podcasts/show/209/oXYgOz)
+* [Inquisitive](https://overcast.fm/podcasts/show/140873/c7qIsl)
+* [Just The Tip](https://overcast.fm/podcasts/show/66983/Q7hFbG)
+* [Mac Power Users](https://overcast.fm/podcasts/show/104521/ov7aWm)
+* [Melton](https://overcast.fm/podcasts/show/237984/QsvJQK)
+* [The New Disruptors](https://overcast.fm/podcasts/show/67282/Lnuoh5)
+* [Podcast Method](https://overcast.fm/podcasts/show/254894/mdVqEP)
+* [Pragmatic](https://overcast.fm/podcasts/show/104562/1RWx9J)
+* [Radiolab from WNYC](https://overcast.fm/podcasts/show/2/XU8INi)
+* [The Record](https://overcast.fm/podcasts/show/104526/Ardqef)
+* [Release Notes](https://overcast.fm/podcasts/show/9502/I9vMpS)
+* [ShopTalk](https://overcast.fm/podcasts/show/8862/XlbPLy)
+* [The Talk Show With John Gruber](https://overcast.fm/podcasts/show/112364/JT4b7C)
+* [TGM: The Archives](https://overcast.fm/podcasts/show/3140/hFIHb0)
+* [Thank You For Calling!](https://overcast.fm/podcasts/show/99702/CFmJvT)
+* [TLDR](https://overcast.fm/podcasts/show/77164/ZjFlyL)
+* [Upgrade](https://overcast.fm/podcasts/show/227369/le1pvd)
+* [Vector](https://overcast.fm/podcasts/show/67255/bs79Gg)
+
+Is that enough?
