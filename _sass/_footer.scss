@@ -1,0 +1,50 @@
+.site-footer {
+    margin-top: 7rem;
+    border-bottom: 16px solid $accent;
+
+    .wrapper {
+        padding-top: 20px;
+        border-top: 1px solid $grey_light;
+        line-height: 1;
+
+        @media (max-width: ($content_width + 199)) {
+            margin: 0 15px 40px;
+        }
+
+        @media (min-width: ($content_width + 200)) {
+            margin: 0 50px 40px;
+        }
+    }
+
+    a {
+        &:link,
+        &:visited {
+            color: $black;
+        }
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: $accent_dark;
+        }
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+    }
+
+    .poweredby,
+    .right a {
+        font-size: 1.2rem;
+    }
+
+    @media (min-width: 500px) {
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+    }
+}//.site-footer

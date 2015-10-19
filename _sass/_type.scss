@@ -1,0 +1,237 @@
+// ------------------------------------------------------------
+// Type
+//
+// Sizes, colours, and anything type relates
+//
+// * Base type
+// * Headers
+// * Links
+// * Lists
+// * Code
+// * Tables
+// * Blockquotes
+// * Misc
+// ------------------------------------------------------------
+
+
+//
+// Base type
+// --------------------------------------------------
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, sans-sefif;
+    font-size: 1.6rem;
+    line-height: 1.625;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+
+//
+// Headers
+// --------------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+    word-break: break-word;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+@for $i from 1 through 6 {
+    $header_size: nth($header_sizes, $i);
+    $smaller_header_size: ($header_size * 0.8);
+    h#{$i}{
+        font-size: #{$header_size}rem;
+        @media (max-width: 500px) {
+            font-size: #{$smaller_header_size}rem;
+        }
+    }
+}
+
+
+//
+// Links
+// --------------------------------------------------
+
+a {
+    text-decoration: none;
+    transition: color 0.1s linear;
+
+    &:link,
+    &:visited {
+        color: $accent;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $accent_dark;
+    }
+}
+
+
+//
+// Lists
+// --------------------------------------------------
+
+ul, ol {
+    padding-left: 25px;
+
+    ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+//
+// Code
+// --------------------------------------------------
+
+code,
+pre {
+    font-family: Monaco, Consolas, "Lucida Console", monospace, monospace;
+    font-size: 95%;
+}
+
+pre {
+    display: block;
+    max-width: 100%;
+    background: #f5f5f5;
+    padding: 0.8rem 1.4rem 0.7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    line-height: 1.8;
+}
+
+
+p code {
+    color: $red;
+    font-size: 95%;
+}
+
+
+//
+// Tables
+// --------------------------------------------------
+
+table {
+    box-sizing: border-box;
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+
+    th,
+    td {
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: #EFEFEF 1px solid;
+    }
+
+    th {
+        font-weight: 500;
+        color: #000;
+    }
+
+    caption + thead tr:first-child th,
+    caption + thead tr:first-child td,
+    colgroup + thead tr:first-child th,
+    colgroup + thead tr:first-child td,
+    thead:first-child tr:first-child th,
+    thead:first-child tr:first-child td {
+        border-top: 0;
+    }
+
+    tbody + tbody {
+        border-top: #EFEFEF 2px solid;
+    }
+
+    table table {
+        background-color: #FFF;
+    }
+
+    tbody > tr:nth-child(odd) > td,
+    tbody > tr:nth-child(odd) > th {
+        background-color: #F6F6F6;
+    }
+
+    &.plain tbody > tr:nth-child(odd) > td,
+    &.plain tbody > tr:nth-child(odd) > th {
+       background: transparent;
+    }
+
+}//table
+
+
+//
+// Blockquotes
+// --------------------------------------------------
+
+blockquote {
+    border-left: 5px solid $grey_light;
+    margin: 4rem 0;
+    padding-left: 4rem;
+    font-style: italic;
+    font-size: 120%;
+
+    p {
+        margin: 0;
+    }
+}
+
+
+//
+// Misc
+// --------------------------------------------------
+
+hr {
+    border: 0;
+    border-top: 1px solid $grey_light;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+kbd {
+    font-family: Monaco, Consolas, "Lucida Console", monospace, monospace;
+    display: inline-block;
+    margin-bottom: 0.4em;
+    padding: 1px 8px;
+    border: #CCC 1px solid;
+    color: #666;
+    text-shadow: #FFF 0 1px 0;
+    font-size: 90%;
+    font-weight: bold;
+    background: #F4F4F4;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
+}
+
+mark {
+    background: #FDFFB6;
+}
+
+:target {
+  animation: target_highlight 2s ease;
+}
+
+@keyframes target_highlight {
+    from {
+        box-shadow: 0px 0px 60px 50px orange, inset 0px 0px 100px 20px orange;
+    }
+    to {
+        box-shadow: none;
+    }
+}

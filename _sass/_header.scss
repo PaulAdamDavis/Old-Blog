@@ -1,0 +1,70 @@
+.site-header {
+    border-top: 8px solid $accent;
+}
+
+.home-header {
+    max-width: 540px;
+    text-align: center;
+
+    @media (max-width: ($content_width + 199)) {
+        margin: 50px auto;
+    }
+    @media (min-width: ($content_width + 200)) {
+        margin: 110px auto;
+    }
+
+    // Larger margins on the home page
+    body.home-template & {
+        @media (max-width: ($content_width + 199)) {
+            margin: 100px auto;
+        }
+
+        @media (min-width: ($content_width + 200)) {
+            margin: 160px auto;
+        }
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 1.3;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.7;
+        color: $grey;
+        margin-top: 0;
+    }
+}//.home-header
+
+.blog-link,
+.blog-logo {
+    position: absolute;
+    top: 27px;
+    left: 20px;
+    z-index: 20;
+}
+
+.blog-logo {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+
+    img {
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+    }
+}
+
+.about-link {
+    position: absolute;
+    top: 34px;
+    right: 20px;
+    font-weight: bold;
+    color: $accent;
+}

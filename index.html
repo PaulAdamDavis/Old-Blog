@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home-header">
+  <h1>Paul Davis</h1>
+  <h2>Front-end developer</h2>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div id="content" class="content home-page-list" role="main">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% for post in site.posts %}
+    {% capture post_month %}
+      {{post.date | date: "%m"}}
+    {% endcapture %}
+    {% if post_month != prev_post_month %}
+      {% if prev_post_month %}
+        <br>
+      {% endif %}
+      <b>{{post.date | date: "%B %Y"}}</b><br>
+    {% endif %}
+    <a href="{{ post.url }}">{{ post.title }}</a> <time>{{post.date | date: "%A %e" }}</time><br>
+    {% capture prev_post_month %}{{post_month}}{% endcapture %}
+  {% endfor %}
 
 </div>
