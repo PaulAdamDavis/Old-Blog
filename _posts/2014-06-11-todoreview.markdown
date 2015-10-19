@@ -24,9 +24,9 @@ The plugin its self [has many](https://github.com/jonathandelgado/SublimeTodoRev
 Add this to: Preferences > Package Settings > TodoReview > Key Bindings - User
 It means you can type `cmd+shift+g` and get to that all-important list.
 
-```
+{% highlight json %}
 { "keys": ["super+shift+g"], "command": "todo_review" }
-```
+{% endhighlight %}
 
 Of course, you can modify it to be whatever you want, the key here is `"command": "todo_review"`.
 

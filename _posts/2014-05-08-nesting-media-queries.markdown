@@ -10,22 +10,22 @@ Below is how I use nested media queries in Sass. I try to keep nesting up to 3 l
 
 Then I order media queries by size, so the smallest query first then the largest last. Inside the query's block, I try to keep the order of properties the same, but as they're usually quite small, I'm not precious about it.
 
-```language-scss
+{% highlight scss %}
 .elem {
-    
+
     color: red;
     border: 1px solid blue;
-    
+
     .thing {
         font-weight: 600;
     }
-    
+
     // And any other properties...
-    
+
     @media (min-width: 601px) and (max-width: 800px) {
         color: green;
     }
-    
+
     @media (max-width: 801px) and (min-width: 1000px) {
         color: blue;
         border-color: yellow;
@@ -33,9 +33,9 @@ Then I order media queries by size, so the smallest query first then the largest
             font-weight: 400;
         }
     }
-    
+
 } // .elem
-```
+{% endhighlight %}
 
 The only downside I can see to this is the end result when compiled. You could have many repeated `@media` query declarations. When someone makes a good Sass plugin to combine the `@media` declarations, that'd be awesome.
 

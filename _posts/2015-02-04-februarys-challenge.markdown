@@ -22,7 +22,7 @@ Working from home is wonderfully awesome, but you tend to spend a lot of time sa
 
 I’m not proud of how my desk looks. It’s certainly not something that’d appear on an ‘awesome desks of Silicone Valley’ gallery. Not even close.
 
-![My Desk](/content/images/2015/02/IMG_5867.JPG)
+![My Desk](/images/IMG_5867.JPG)
 
 This partly stems to my office being the warmest room in the house, but also from laziness and wanting to keep engaged with everyone.[^1]
 

@@ -4,7 +4,7 @@ title: Switching Ghost  From Ruby Sass to Libsass
 date: '2014-09-04 19:44:00'
 ---
 
-In the early days of Ghost, any CSS was written in Sass, which meant Ghost had a Ruby dependency. In [March](http://dev.ghost.org/no-more-ruby-dependency/) of this year, the Sass was moved to its own repository, which meant Ghost no longer had a Ruby dependency, but had 2 repositories instead. A couple weeks ago, we decided to take the plunge and adjust our Sass so Libsass could compile it. This is why. 
+In the early days of Ghost, any CSS was written in Sass, which meant Ghost had a Ruby dependency. In [March](http://dev.ghost.org/no-more-ruby-dependency/) of this year, the Sass was moved to its own repository, which meant Ghost no longer had a Ruby dependency, but had 2 repositories instead. A couple weeks ago, we decided to take the plunge and adjust our Sass so Libsass could compile it. This is why.
 
 ---
 
@@ -38,13 +38,13 @@ The way we did this might not be conventional, but it works.
 
 Here's what you need for the Grunt tasks. It's simplified from what we use. I'm not going to explain how wire it up, I trust you'll know where to put these.
 
-```language-javascript
+{% highlight js %}
 // package.json
 "grunt-autoprefixer": "1.0.1",
 "grunt-sass": "~0.14.0"
-```
+{% endhighlight %}
 
-```language-javascript
+{% highlight js %}
 // Gruntfile.js
 sass: {
     compress: {
@@ -67,7 +67,7 @@ autoprefixer: {
         dest: 'ghost.min.css'
     }
 }
-```
+{% endhighlight %}
 
 Woop woop! We now have the same code-base (maybe even slightly smaller) with cleaner, prettier code.
 

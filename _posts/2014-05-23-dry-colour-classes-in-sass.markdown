@@ -14,31 +14,32 @@ But rather than write out two classes for each colour (for which there are 11, n
 
 ## Prep
 
-Below is how I've achieved this in Sass. First, we have the colour variables. 
-```language-scss
+Below is how I've achieved this in Sass. First, we have the colour variables.
+
+{% highlight scss %}
 // variables.scss
 $darkgrey: #242628;
 $grey: #35393b;
 $midgrey: #7d878a;
 $lightgrey: #e2edf2;
-```
+{% endhighlight %}
 
 Second, we have the list of colours, which is comprised of two parts. The first attribute is the string we want to use as a selector, the second attribute is the corresponding colour variable which we previously declared.
 
-```language-scss
+{% highlight scss %}
 // variables.scss
-$list-colours: 
+$list-colours:
     ('darkgrey' $darkgrey)
     ('grey' $grey)
     ('midgrey' $midgrey)
     ('lightgrey' $lightgrey);
-```
+{% endhighlight %}
 
 ## In Use
 
 In another file where a lot of other base styles and classes are defined, we have this. It loops over the list of colours we declared earlier and creates 2 classes for each.
 
-```language-scss
+{% highlight scss %}
 // base.scss
 @each $colour in $list-colours {
     .#{nth($colour, 1)}-bg {
@@ -48,45 +49,45 @@ In another file where a lot of other base styles and classes are defined, we hav
         color: nth($colour, 2);
     }
 }
-```
+{% endhighlight %}
 
 ## Result
 
 This is the compiled CSS. See why I wanted to make this DRYer when writing it?
 
-```language-css
+{% highlight css %}
 .darkgrey-bg {
-	background: #242628;
+    background: #242628;
 }
 
 .darkgrey {
-	color: #242628;
+    color: #242628;
 }
 
 .grey-bg {
-	background: #35393b;
+    background: #35393b;
 }
 
 .grey {
-	color: #35393b;
+    color: #35393b;
 }
 
 .midgrey-bg {
-	background: #7d878a;
+    background: #7d878a;
 }
 
 .midgrey {
-	color: #7d878a;
+    color: #7d878a;
 }
 
 .lightgrey-bg {
-	background: #e2edf2;
+    background: #e2edf2;
 }
 
 .lightgrey {
-	color: #e2edf2;
+    color: #e2edf2;
 }
-```
+{% endhighlight %}
 
 ## Conslusion
 

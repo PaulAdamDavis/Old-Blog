@@ -16,7 +16,7 @@ Granted, it does require JavaScript, but when used in a web application that req
 
 Below, is a barebones example of the markup.
 
-```language-html
+{% highlight html %}
 <!-- The settings form -->
 <form action="/api/settings" method="post">
 	<input name="someinput" />
@@ -30,17 +30,17 @@ Below, is a barebones example of the markup.
 
 <!-- And somewhere else on the page... -->
 <a href="#" data-pseudo-click-target="the-form-button">Save Settings</a>
-```
+{% endhighlight %}
 
 And this is the JavaScript (jQuery in this case).
 
-```language-js
+{% highlight js %}
 $("[data-pseudo-click-target]").on("click", function(e){
     e.preventDefault();
     var target = $(this).attr("data-pseudo-click-target");
     $("#" + target).click();
 });
-```
+{% endhighlight %}
 
 It may not be the *best* aproach for this kind of problem, but it is simple, easy to understand and is very flexible.
 

@@ -14,13 +14,13 @@ Note: Comments, emails and tweets directed at me citing that vaping is untested 
 
 ## The Daily Carry
 
-![Vaporiser with iPhone for size comparison](/content/images/2014/May/vape-pocket.jpg)
+![Vaporiser with iPhone for size comparison](/images/vape-pocket.jpg)
 
 This is what I carry on a daily basis, next to an iPhone 5 for size comparison. The brass poll is what we call a 'mod', because it can be used & adapted in various ways to do various things. This one is standard. The chrome piece on top is called a dripper and houses the coils, cotton wool, and ultimately the juice that gets vaporised into smoke, which is just flavoured water, after breathing it out.
 
 Inside the mod is a Sony 18650 battery, which lets me use sub-ohm coils. Lesser batteries aren't as safe or even capable of sub-ohming.
 
-*Side note: [Ohms](http://en.wikipedia.org/wiki/Ohm) is a unit of electrical resistance. Creating different coils of varying ohms can change the flavour of the juice and usually the amount of vapour.* 
+*Side note: [Ohms](http://en.wikipedia.org/wiki/Ohm) is a unit of electrical resistance. Creating different coils of varying ohms can change the flavour of the juice and usually the amount of vapour.*
 
 The clear bottle with the blue lid is the juice I am using at the moment. It's home-made (not by me) and consists of 3 or 4 liquids, as all other juices do. They are:
 
@@ -33,7 +33,7 @@ The levels of these ingredients are typically a secret of those who make liquids
 
 ## The Tool Kit
 
-![Vaping tool kit](/content/images/2014/May/vape-tools.jpg)
+![Vaping tool kit](/images/vape-tools.jpg)
 
 This is all the vapid equipment I have, which is typical of many capers like myself.
 

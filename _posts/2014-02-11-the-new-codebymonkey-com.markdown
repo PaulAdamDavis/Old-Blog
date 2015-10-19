@@ -54,7 +54,7 @@ I wanted to make this site very easy to maintain. It has no CMS, but a PHP file 
 
 The portfolio stuff is typical, just an array, but the date stuff is a little more interesting.
 
-```language-php
+{% highlight php %}
 $dates = array(
   array(
     'start_stamp' => strtotime('10-02-2014'),
@@ -67,13 +67,13 @@ $dates = array(
     'available' => false
   )
 );
-```
+{% endhighlight %}
 
 Earlier on in the file, I set the timezone to `Europe/London`, so all I need to do to add date blocks is the date, in the proper `dd-mm-yyyy` format.
 
 This is what I use to work out if I am available, and when, just based on the dates I have in the `$dates` array.
 
-```language-php
+{% highlight php %}
 // First month info
 $first_month_available = search($dates, 'available', true);
 $first_month_available = $first_month_available[0];
@@ -86,17 +86,17 @@ $early_or_late = (($first_day / $first_days_in_month) > 0.5) ? 'late' : 'early';
 
 // Am I available?
 $available = ($first_month_available) ? true : false;
-```
+{% endhighlight %}
 
 I also automate various costs, so I have a few variables which are just echoed throughout the site.
 
-```language-php
+{% highlight php %}
 $price_per_hour = 50;
 $minimumn_block_hours = 6;
 $minimumn_block_price = ($price_per_hour * $minimumn_block_hours);
 $hours_per_week = 30;
 $nda_fee = 600;
-```
+{% endhighlight %}
 
 ---
 

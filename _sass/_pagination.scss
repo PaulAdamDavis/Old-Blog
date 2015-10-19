@@ -32,7 +32,7 @@
             width: 3rem;
             height: 3rem;
             text-align: center;
-            line-height: 1.13;
+            line-height: 1.05;
             font-size: 3rem;
             background: $grey_light;
             color: #fff;
@@ -46,6 +46,7 @@
 
         span {
             left: 0;
+            text-indent: -2px;
         }
     }
 
@@ -54,6 +55,7 @@
 
         span {
             right: 0;
+            text-indent: 1px;
         }
     }
 

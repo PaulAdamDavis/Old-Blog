@@ -4,7 +4,7 @@ title: El Gouna Ghost Retreat
 date: '2014-05-30 21:00:17'
 ---
 
-![Ghost](/content/images/2014/May/10255983_10152191375942362_230083110035324953_o.jpg)
+![Ghost](/images/10255983_10152191375942362_230083110035324953_o.jpg)
 
 A few months ago, [John O'Nolan](https://twitter.com/johnonolan) suggested a date for the first Ghost retreat. I penciled it into the calendar and forgot about it. A good few weeks later, on April 30th, the date was set and flights were booked. It was happening! Three of us would be flying out to Egypt to stay with John for just over a week.
 
@@ -24,7 +24,7 @@ Even a few days, it's hard to remember what happened each day, so I thought I'd 
 
 ## Breakfasts on the beach
 
-![Breakfasts on the beach](/content/images/2014/May/10333319_10152191382397362_70801864466763947_o.jpg)
+![Breakfasts on the beach](/images/10333319_10152191382397362_70801864466763947_o.jpg)
 
 (I wasn't kidding!)
 
@@ -34,21 +34,21 @@ Almost every day, we walked down to the beach and pretty much had the same thing
 
 We were lucky enough to be given a lagoon tour on a boat, and it was a lot of fun. And an eye opener - seeing how much of El Gouna there is on the water front. Pretty much everything of note is less than 20 meters from water.
 
-![Speedboat](/content/images/2014/May/10387168_10152191382637362_8288887288177283101_o.jpg)
+![Speedboat](/images/10387168_10152191382637362_8288887288177283101_o.jpg)
 
 ## Raft Building
 
-We accepted the challenge to compete in the second annual raft building competition, held at [The Club House](https://www.facebook.com/Clubhouse.elgouna). 
+We accepted the challenge to compete in the second annual raft building competition, held at [The Club House](https://www.facebook.com/Clubhouse.elgouna).
 
-![Raft building](/content/images/2014/May/1556470_10152191383347362_3577953486318421243_o.jpg)
+![Raft building](/images/1556470_10152191383347362_3577953486318421243_o.jpg)
 
 We built what we thought was a solid craft. It felt solid, nothing moved a millimetre, knots were tight, beers were had. We were filled with confidence!
 
-![Other rafts](/content/images/2014/May/10285798_10152191383487362_3780582506705418060_o.jpg)
+![Other rafts](/images/10285798_10152191383487362_3780582506705418060_o.jpg)
 
 We listed diligently to the rules, heckled a little, then stood waiting for the starting signal. I pushed us off the beach into the water and we were under way! We paddled, fell behind so paddled some more. We reached the other bank well behind of the others, then our raft started to fall apart.
 
-![Swimming...](/content/images/2014/May/1276964_10152191381862362_2215690522244754020_o.jpg)
+![Swimming...](/images/1276964_10152191381862362_2215690522244754020_o.jpg)
 
 Ultimately, we came last and we swim back, but we did have victory flaming Sambuca, which I screwed up. Breathing out after you light the drink in your mouth is a bad idea. Fire + alcohol + extra air == OUCH!
 
@@ -60,7 +60,7 @@ Aside from that, we still held an IRC meeting the day after we all arrived. It w
 
 There are some parts of being distributed that are hard to let go.
 
-![Working](/content/images/2014/May/10257452_10152191382267362_4024668796589467194_o.jpg)
+![Working](/images/10257452_10152191382267362_4024668796589467194_o.jpg)
 
 ## Motorbikes
 
@@ -68,7 +68,7 @@ El Gouna is technically private land. It has its own security, not a police forc
 
 I picked up riding a bike very quickly indeed and had doubled the previously set top speed for this particular bike. Proud.
 
-![Mini motorbike](/content/images/2014/May/10428371_10152191385087362_6658062064891751588_o.jpg)
+![Mini motorbike](/images/10428371_10152191385087362_6658062064891751588_o.jpg)
 
 
 ## Numbers
@@ -105,6 +105,6 @@ I know how awesome numbers are, so throughout the week, I kept a list of what I'
 
 Thank you Ghost for the amazing job, the amazing oportuntues and the amazing <s>holiday</s> meetup.
 
-![4/5 of the Ghost Foundation](/content/images/2014/May/1559331_10152191384087362_2774360693197109150_o.jpg)
+![4/5 of the Ghost Foundation](/images/1559331_10152191384087362_2774360693197109150_o.jpg)
 
 Credit goes to [John](https://twitter.com/johnonolan), [James](https://twitter.com/jamesslock) & [Mia](https://www.facebook.com/mia.ayoub.1) for the photos.

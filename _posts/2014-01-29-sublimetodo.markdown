@@ -8,15 +8,15 @@ I'm sure i've written about a Sublime Text package called [SublimeTODO](https://
 
 It's easy to install but getting to the list of todos isnt retibble easy. I created a keyboard shortcut of `cmd`+`shift`+`g`. Add this to your **user** key bindings, making sure it's valid json.
 
-```language-json
+{% highlight json %}
 [
-	{ "keys": ["super+shift+g"], "command": "todo" }
+    { "keys": ["super+shift+g"], "command": "todo" }
 ]
-```
-    
+{% endhighlight %}
+
 If you work on projects with a package system (NPM, Ruby gems, Composer etc), builds scripts or other stuff you didnt create, you don't want to search them for todos. Add this to your user settings. Note that you can easilly create new comment prefixes. I have `CRITICAL`, `MAYBE` and a few other things.
 
-```language-json
+{% highlight json %}
 "todo":
 {
     "case_sensitive": true,
@@ -43,8 +43,8 @@ If you work on projects with a package system (NPM, Ruby gems, Composer etc), bu
         "TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
     }
 },
-```
-    
+{% endhighlight %}
+
 I like inline todos.
 
 ---

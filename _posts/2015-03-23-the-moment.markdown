@@ -8,6 +8,6 @@ You should read [Hayley's post](http://hayleybrowne.com/disneyland-paris/) about
 
 > We were walking out of the park, with everyone else after the show as the park was closing when Paul pulled me to the side just outside the Park entrance (and the Disneyland Hotel itself), and a little way away from the huge crowd, he got down on one knee and proposed!
 
-![The ring](/content/images/2015/03/IMG_1038.jpg)
+![The ring](/images/IMG_1038.jpg)
 
 I couldn't be happier!

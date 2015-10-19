@@ -10,11 +10,11 @@ Ever since then, I've known standing while working is a benefit for me, but I ca
 
 I've gone from a desk like this…
 
-![](/content/images/2015/09/IMG_5884.jpg)
+![](/images/IMG_5884.jpg)
 
 …to this.
 
-![](/content/images/2015/09/IMG_6620.jpg)
+![](/images/IMG_6620.jpg)
 (Excuse the mess of wires, I'm still sorting that out)
 
 So far I'm liking it, but it's been about 2 hours. Time will tell if the options to kneel, sit, lean, or stand, help good posture and improve productivity or if I end up sitting again. Either way, options!

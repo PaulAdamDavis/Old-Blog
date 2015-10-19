@@ -12,7 +12,7 @@ It’s also a good example (I think) in how to use Sass & Autoprefixer in a them
 
 For posterity[^2], here's a screenshot.
 
-![Mono Screenshot](/content/images/2015/01/Paul-Davis--20150111-.jpg)
+![Mono Screenshot](/images/Paul-Davis--20150111-.jpg)
 
 [^1]: Which is good for my contribution streak too.
 [^2]: And RSS readers. I am one!

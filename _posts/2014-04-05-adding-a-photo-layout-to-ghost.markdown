@@ -18,15 +18,15 @@ Ghost has always has tags, so I use those. For a photo post, I add the tag of `P
 
 Inside the `post.hbs` file, make sure the wrapper still has the tags helper.
 
-``` language-html
+{% highlight html %}
 <article class="{{post_class}}">
-```
+{% endhighlight %}
 
 That results in this.
 
-``` language-html
+{% highlight html %}
 <article class="post tag-photos">
-```
+{% endhighlight %}
 
 I should add here that images are wrapped in `<p>` tags, which means slightly more verbose CSS.
 
@@ -34,7 +34,7 @@ I should add here that images are wrapped in `<p>` tags, which means slightly mo
 
 *(I'm using [Scss](http://sass-lang.com/), compiled with [CodeKit](https://incident57.com/codekit/))*
 
-``` language-css
+{% highlight scss %}
 // My generic image styles used globally throughout the site
 .post-content img {
 	max-width: 100%;
@@ -73,7 +73,7 @@ article.tag-photo {
         }
     }
 }
-```
+{% endhighlight %}
 
 So what's going on here? Let's use the 1400px media wuery as an example.
 
@@ -83,4 +83,4 @@ Because the wrapper of this site is 700px, the image is an extra 600px wider tha
 
 Here's a visual explanation, and an example!
 
-![](/content/images/2014/Apr/DSC_0152.jpg)
+![](/images/DSC_0152.jpg)

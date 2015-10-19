@@ -4,7 +4,7 @@ title: Web in the Woods
 date: '2015-03-22 17:45:26'
 ---
 
-![the woods](/content/images/2015/03/Unknown.jpeg)
+![the woods](/images/Unknown.jpeg)
 
 I'm pleased to say I'm speaking at the [Web in the Woods](http://www.webinthewoods.co.uk) event, Saturday 12th September this year.
 

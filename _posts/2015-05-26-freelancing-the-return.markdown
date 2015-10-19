@@ -4,7 +4,7 @@ title: Freelancing – The Return
 date: '2015-05-26 13:36:49'
 ---
 
-![me](/content/images/2015/05/hire-1.jpg)
+![me](/images/hire-1.jpg)
 
 <p style="text-align: center;"><b>I'm really pleased to announce that I'm going freelance again!</b></p>
 

@@ -10,7 +10,7 @@ Continuing my streak of improving tiny parts of my life each month, here’s thi
 
 I had a few simple rules: “Only have one drink on my desk”, “If something is not being used or drank, sort that shit out”, and “Eat food away from my desk”. I did okay at keeping the desk clear of clutter, and keeping drinks to a minimum. I did lapse and continued to eat food at my desk though.
 
-![Clean desk](/content/images/2015/03/clean-desk.jpg)
+![Clean desk](/images/clean-desk.jpg)
 
 I’m happy with that.
 

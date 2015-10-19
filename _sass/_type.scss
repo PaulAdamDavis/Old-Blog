@@ -235,3 +235,23 @@ mark {
         box-shadow: none;
     }
 }
+
+.text-button {
+        color: #FFF;
+        background: #8BBAF0;
+        display: block;
+        text-align: center;
+        padding: 15px 5px 10px;
+        font-size: 120%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        line-height: 1;
+    }
+    .text-button:link,
+    .text-button:visited {
+        color: #fff;
+    }
+    .text-button:hover {
+        background: #4A90E2;
+    }

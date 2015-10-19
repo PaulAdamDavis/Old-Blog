@@ -12,7 +12,7 @@ For the longest time, I used `window.innerWidth()` to check the width of the bro
 
 This chunk of code below, tests for `matchMedia` support, and adds listeners for changes. In this case, is listens for when the width of the window.
 
-```language-javascript
+{% highlight javascript %}
 if (matchMedia) {
     var mq_min_800 = window.matchMedia("(min-width: 800px)");
     mq_min_800.addListener(image_grid);
@@ -22,11 +22,11 @@ if (matchMedia) {
     mq_min_600.addListener(image_sizes);
     image_sizes(mq_min_600);
 }
-```
+{% endhighlight %}
 
 Below, is the functions called when the match changes. It's fairly self explanatory I hope?
 
-```language-javascript
+{% highlight javascript %}
 function image_grid(mq) {
     if (mq.matches) {
         // Window is 800px or more
@@ -42,6 +42,6 @@ function image_sizes(mq) {
         // Window is 599px or less
     }
 }
-```
+{% endhighlight %}
 
 I believe the queries it can listen for are the same as CSS media queries, so there's plenty of uses here. But, I would use [Modernizr](http://modernizr.com/) to test for features and environments, but `matchMedia` for dimensions like I have above.

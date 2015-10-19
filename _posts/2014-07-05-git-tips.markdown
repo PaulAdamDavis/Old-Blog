@@ -14,15 +14,15 @@ Some are basic tips, but ones that I spent a while finding and learning, and som
 
 Once set, you can use 'upstream' instead of a URL. You'll need this set for each repo for a lot of the below tips to work.
 
-```language-bash
+{% highlight bash %}
 git remote add upstream https://github.com/origin-owner/original-repo.git
-```
+{% endhighlight %}
 
 ## Preview a Pull Request
 
 Let's say you want to locally run a pull request to see how it works, before you merge it. How do you do that without forking their repo and running that? This, is how you do it.
 
-```language-bash
+{% highlight bash %}
 # Step 1
 git fetch git@github.com:acount/the-repo.git refs/pull/123/head
 # Or
@@ -30,7 +30,7 @@ git fetch upstream refs/pull/4/head
 
 # Step 2. Yes, 'FETCH_HEAD', verbatim
 git checkout FETCH_HEAD
-```
+{% endhighlight %}
 
 ## Create & Delete a Tag
 
@@ -38,25 +38,25 @@ Tagging code is a good way to say _"Okay, that's feature X done, let's tag it so
 
 **Create**
 
-```language-bash
+{% highlight bash %}
 git tag -a 1.2.3
 git push --tags
-```
-	
+{% endhighlight %}
+
 **Delete Tag**
 
 **Locally**
 
-```language-bash
+{% highlight bash %}
 git tag -d 1.2.3
-```
+{% endhighlight %}
 
 **Remotely**
 
-```language-bash
+{% highlight bash %}
 git tag -d 1.2.3
 git push origin :refs/tags/1.2.3
-```
+{% endhighlight %}
 
 ## Rename Branch
 
@@ -66,25 +66,25 @@ There's many reasons why you'll want to rename a branch. You can rename another 
 
 **From any branch**
 
-```language-bash
+{% highlight bash %}
 git branch -m <oldname> <newname>
-```
+{% endhighlight %}
 
 **From current branch**
 
-```language-bash
+{% highlight bash %}
 git branch -m <newname>
-```
+{% endhighlight %}
 
 ## Interactive Rebase
 
 This is how you merge commits together. If you ever contribute to Ghost, you'll need this one.
 Everyone likes a clean commit history.
 
-```language-bash
+{% highlight bash %}
 # 8 is the number of commits to merge, so the 8 newest commits, from any author
 git rebase -i HEAD~8
-```
+{% endhighlight %}
 
 ## Cherry-Pick
 
@@ -92,9 +92,9 @@ Lets say you want to pick a few select commits from one branch to the other, che
 
 For this to work, you need to be on a different branch to the one your picking commits from. You can either use the first 10 characters from a commit hash, or the full 40 characters.
 
-```language-bash
+{% highlight bash %}
 git cherry-pick a1b2c3d4e5
-```
+{% endhighlight %}
 
 ## Reset to upstream
 
@@ -102,10 +102,10 @@ Let's say you're totally fucked. Like, no one has any clue. You haven't done muc
 
 **Use this with caution**. You _could_ loose days of work.
 
-```language-bash
+{% highlight bash %}
 git fetch upstream
 git reset --hard upstream/master
-```
+{% endhighlight %}
 
 ---
 

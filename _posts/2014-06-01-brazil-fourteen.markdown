@@ -6,13 +6,13 @@ date: '2014-06-01 16:16:36'
 
 Earlier this year, whilst visiting the good people at [Karoshi](http://teamkaroshi.com), they showed me a prototype of a 2014 World Cup calendar poster. It looked brilliant. A little later, they had finalised the design and packaging – you can see [more of that here](http://teamkaroshi.com/work/brazil-2014-world-cup/).
 
-![Print poster](/content/images/2014/May/5922EDD5-37D4-42F8-BD44-8AEA43F1D206-config-WC-web-image_3.jpg)
+![Print poster](/images/5922EDD5-37D4-42F8-BD44-8AEA43F1D206-config-WC-web-image_3.jpg)
 
 They asked me if I'd be interested in making a [digital version](http://brazilfourteen.com/). Having worked with Karoshi on numerous occasions before, I knew it would be an interesting project. Given that this was a project for love, not money, it meant I could experiment a bit more, as paid-for time just wasn't a factor.
 
 It was agreed early on to only support modern browsers, so I chose IE10 & up, and other modern browsers. Or more to the point, anything that supported CSS flexbox, without a polyfill.
 
-![Mobile](/content/images/2014/May/1DAC9FA0-094F-46AC-93B5-99CA47BB4893-config-WC-web-image_9.jpg)
+![Mobile](/images/1DAC9FA0-094F-46AC-93B5-99CA47BB4893-config-WC-web-image_9.jpg)
 
 The list of requirements, technologies and processes were as follows:
 

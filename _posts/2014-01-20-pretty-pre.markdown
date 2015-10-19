@@ -10,15 +10,15 @@ This is a function I add into all my PHP projects that prints arrays and boolean
 
 The advantage to abstracting this is that you can simply comment out the echoed data and prevent anything going onto the page. If your framework has the concept of environments, you could also build it in so production never echoes this data.
 
-```language-php
+{% highlight php %}
 // $var is the data
 // false turns off the max height
 pre($posts_array, false);
-```
+{% endhighlight %}
 
 It's simple, and it works.
 
-```language-php
+{% highlight php %}
 function pre($var, $maxheight = true) {
     $maxheightcss = ($maxheight) ? 'max-height: 300px;' : '';
     echo '<pre style="background: #fcffb1; text-align: left; outline: 4px solid rgb('. rand(0, 250) .','. rand(0, 250) .','. rand(0, 250) .'); width: 100%; overflow: auto; '. $maxheightcss .'">';
@@ -33,4 +33,4 @@ function pre($var, $maxheight = true) {
         endif;
     echo '</pre>';
 }
-```
+{% endhighlight %}
