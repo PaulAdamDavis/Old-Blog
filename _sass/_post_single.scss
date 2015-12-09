@@ -148,6 +148,12 @@
     }
 }//.single-post
 
+.single-post.link-post {
+    h1 a  {
+        color: $accent;
+    }
+}
+
 .newer-older-post {
     border-top: 1px solid $grey_light;
     padding-top: 75px;

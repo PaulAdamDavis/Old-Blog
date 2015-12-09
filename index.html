@@ -20,7 +20,7 @@ layout: default
       {% endif %}
       <b>{{post.date | date: "%B %Y"}}</b><br>
     {% endif %}
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <time>{{post.date | date: "%A %e" }}</time><br>
+    <a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.link %} &rarr;</a>{% endif %}</a> <time>{{ post.date | date: "%A %e" }}</time><br>
     {% capture prev_post_month %}{{post_month}}{% endcapture %}
   {% endfor %}
 
