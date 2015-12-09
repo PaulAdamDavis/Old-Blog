@@ -36,6 +36,11 @@
         line-height: 1.7;
         color: $grey;
         margin-top: 0;
+
+        a {
+            color: currentcolor;
+            text-decoration: underline;
+        }
     }
 }//.home-header
 

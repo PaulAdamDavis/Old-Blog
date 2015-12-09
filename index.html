@@ -4,24 +4,46 @@ layout: default
 
 <div class="home-header">
   <h1>Paul Davis</h1>
-  <h2>Front-end developer</h2>
+  <h2>Front-end developer &bull; <a href="http://pauladamdavis.com">About me</a></h2>
 </div>
 
 
-<div id="content" class="content home-page-list" role="main">
+<div class="home-list">
+    {% for post in paginator.posts %}
+        <article class="post single-post {% if post.link %}link-post{% endif %}" role="main" itemscope itemtype="http://schema.org/BlogPosting">
+            <header class="post-header">
+                <h1 class="post-title">
+                    <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
+                        {{ post.title }}
+                    </a>
+                </h1>
+                <p class="meta clearfix">
+                    <time datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+                    {% if post.link %}
+                        <a class="permalink-for-link-post" href="{{ post.url }}">&#8734;</a>
+                    {% endif %}
+                </p>
+            </header>
 
-  {% for post in site.posts %}
-    {% capture post_month %}
-      {{post.date | date: "%m"}}
-    {% endcapture %}
-    {% if post_month != prev_post_month %}
-      {% if prev_post_month %}
-        <br>
-      {% endif %}
-      <b>{{post.date | date: "%B %Y"}}</b><br>
-    {% endif %}
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.link %} &rarr;</a>{% endif %}</a> <time>{{ post.date | date: "%A %e" }}</time><br>
-    {% capture prev_post_month %}{{post_month}}{% endcapture %}
-  {% endfor %}
+            <section class="post-content">
+                {{ post.content }}
+            </section>
+        </article>
+    {% endfor %}
+
+    <aside class="pagination clearfix">
+        {% if paginator.previous_page %}
+            <a class="newer-posts" href="{{ paginator.previous_page_path }}"><span>‹</span> Newer Posts</a>
+        {% endif %}
+
+
+        {% if paginator.previous_page and paginator.next_page %}
+        <span class="page-number">&nbsp;</span>
+        {% endif %}
+
+        {% if paginator.next_page %}
+            <a class="older-posts" href="{{ paginator.next_page_path }}">Older Posts <span>›</span></a>
+        {% endif %}
+    </aside>
 
 </div>
