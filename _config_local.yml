@@ -2,12 +2,12 @@
 title: Paul Davis
 email: pauladamdavis@gmail.com
 description: Front-end developer
-url: "https://pad.gs" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 paginate: 10
-paginate_path: "/page:num/"
+paginate_path: "/page/:num/"
 
 gems: ['jekyll-paginate']
