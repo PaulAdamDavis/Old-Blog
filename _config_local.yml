@@ -9,5 +9,7 @@ markdown: kramdown
 permalink: pretty
 paginate: 10
 paginate_path: "/page/:num/"
+sass:
+    style: expanded
 
 gems: ['jekyll-paginate']
