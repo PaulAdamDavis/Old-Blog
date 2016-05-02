@@ -5,24 +5,7 @@
 .home-header {
     max-width: 540px;
     text-align: center;
-
-    @media (max-width: ($content_width + 199)) {
-        margin: 50px auto;
-    }
-    @media (min-width: ($content_width + 200)) {
-        margin: 110px auto;
-    }
-
-    // Larger margins on the home page
-    body.home-template & {
-        @media (max-width: ($content_width + 199)) {
-            margin: 100px auto;
-        }
-
-        @media (min-width: ($content_width + 200)) {
-            margin: 160px auto;
-        }
-    }
+    margin: 13rem auto 0;
 
     h1 {
         font-size: 3rem;
