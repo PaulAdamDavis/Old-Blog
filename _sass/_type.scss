@@ -19,7 +19,17 @@
 // --------------------------------------------------
 
 html {
-    font-size: 62.5%;
+    @media (max-width: 599px) {
+      font-size: 56%;
+    }
+
+    @media (min-width: 600px) and (max-width: 1499px) {
+      font-size: 62.5%;
+    }
+
+    @media (min-width: 1500px) {
+      font-size: 70%;
+    }
 }
 
 body {

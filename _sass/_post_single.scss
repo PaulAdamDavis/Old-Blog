@@ -31,7 +31,7 @@
 
 .single-post {
     width: 100%;
-    max-width: ($content_width + 200);
+    max-width: ($content_width + 20rem);
     margin: 0 auto;
 
     .post-header,
@@ -64,6 +64,7 @@
             max-width: 100%;
 
             &.big {
+                $content_width: 620px;
                 max-width: inherit;
 
                 @media (max-width: ($content_width + 140)) {
@@ -81,9 +82,14 @@
                     margin-left: -100px;
                 }
 
-                @media (min-width: ($content_width + 340)) {
+                @media (min-width: ($content_width + 340)) and (max-width: ($content_width + 699)) {
                     width: calc(100% + 250px);
                     margin-left: -125px;
+                }
+
+                @media (min-width: ($content_width + 700)) {
+                    width: calc(100% + 500px);
+                    margin-left: -250px;
                 }
             }
         }
@@ -155,5 +161,5 @@
 }
 
 .single-post .pagination {
-    max-width: ($content_width + 200);
+    max-width: ($content_width + 20rem);
 }
