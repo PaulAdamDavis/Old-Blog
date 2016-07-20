@@ -54,24 +54,6 @@
         }
     }
 
-    .newer-posts {
-        padding-left: 40px;
-
-        span {
-            left: 0;
-            text-indent: -2px;
-        }
-    }
-
-    .older-posts {
-        padding-right: 40px;
-
-        span {
-            right: 0;
-            text-indent: 1px;
-        }
-    }
-
     .page-number {
         line-height: 3rem;
         color: $grey;
