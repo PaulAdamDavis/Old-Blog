@@ -19,7 +19,7 @@ So, a few things to note:
 
 ## Add a column to the admin
 
-{% highlight php startinline %}
+```php?start_inline=1
 function event_cpt_add_columns($defaults) {
   $defaults = array(
     'cb'             => '<input type="checkbox" />',
@@ -31,11 +31,11 @@ function event_cpt_add_columns($defaults) {
 
   return $defaults;
 }
-{% endhighlight %}
+```
 
 ## Add something to that new column
 
-{% highlight php startinline %}
+```php?start_inline=1
 function event_cpt_column_data($column_name, $post_ID) {
   if ($column_name == 'firstshowdate') {
     echo date('jS F Y', get_post_meta('first_show_date', $post_ID), true);
@@ -53,13 +53,13 @@ function event_cpt_register_sortable($columns) {
   return $columns;
 }
 add_filter("manage_edit-event_sortable_columns", "event_cpt_register_sortable" );
-{% endhighlight %}
+```
 
 ## Enable sorting...
 
 ... using the original value of the custom field, not it's formatted counterpart.
 
-{% highlight php startinline %}
+```php?start_inline=1
 function event_cpt_orderby( $query ) {
   if (!is_admin())
   return;
@@ -77,6 +77,6 @@ function event_cpt_orderby( $query ) {
   }
 }
 add_action('pre_get_posts', 'event_cpt_orderby');
-{% endhighlight %}
+```
 
 If this can be improved, do let me know!

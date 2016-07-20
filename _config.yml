@@ -6,9 +6,11 @@ url: "https://pad.gs" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
 paginate: 10
 paginate_path: "/page/:num/"
-highlighter: pygments
 sass:
     style: compressed
+
+gems: ['jekyll-paginate']
