@@ -33,7 +33,7 @@ html {
 }
 
 body {
-    font-family: "Fira Sans", "Helvetica Neue", Helvetica, sans-sefif;
+    font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
     font-size: 1.6rem;
     line-height: 1.625;
     font-weight: 300;
@@ -52,8 +52,8 @@ strong {
 
 h1, h2, h3, h4, h5, h6 {
     word-break: break-word;
-    line-height: 1.1;
-    font-weight: 500;
+    line-height: 1.2;
+    font-weight: 600;
     letter-spacing: -0.02em;
 }
 
@@ -122,6 +122,11 @@ pre {
     margin-top: 4rem;
     margin-bottom: 4rem;
     line-height: 1.8;
+    font-size: 85%;
+
+    code {
+
+    }
 }
 
 li code,
