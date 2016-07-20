@@ -9,5 +9,6 @@ markdown: kramdown
 permalink: pretty
 paginate: 10
 paginate_path: "/page/:num/"
+highlighter: pygments
 sass:
     style: compressed
