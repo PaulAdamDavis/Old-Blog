@@ -37,12 +37,12 @@ body {
     font-size: 1.6rem;
     line-height: 1.625;
     font-weight: 300;
-    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
 }
 
 b,
 strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -53,9 +53,7 @@ strong {
 h1, h2, h3, h4, h5, h6 {
     word-break: break-word;
     line-height: 1.2;
-    font-weight: 600;
     font-weight: 400;
-    // letter-spacing: -0.02em;
 }
 
 @for $i from 1 through 6 {
@@ -88,6 +86,10 @@ a {
     &:active {
         color: $accent_dark;
     }
+}
+
+.post-content p a {
+  font-weight: 600;
 }
 
 
@@ -158,7 +160,7 @@ table {
     }
 
     th {
-        font-weight: 500;
+        font-weight: 600;
         color: #000;
     }
 
